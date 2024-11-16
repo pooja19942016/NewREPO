@@ -1,5 +1,6 @@
 package genericUtilities;
 import java.io.IOException;
+
 import java.sql.Driver;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -59,7 +60,7 @@ public void bcConfig(/*String BROWSER*/) throws IOException
 	
 	String URL = pUtil.readDataFromPropertyFile("url");
 	
-	driver = new EdgeDriver();
+	driver = new ChromeDriver();
 	
 	sUtil.maximizeWindow(driver);
 	sUtil.addImplicitlyWait(driver);
