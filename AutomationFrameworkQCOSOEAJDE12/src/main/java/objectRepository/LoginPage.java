@@ -7,8 +7,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-//**************POM PAGE*************************//
-
 
 public class LoginPage { //POM class should always end up with page
 	//Rule 1:Create object separate POM class for web page 

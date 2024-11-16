@@ -19,7 +19,7 @@ import objectRepository.ProductPage;
 import objectRepository.YourCartPage;
 @Listeners(genericUtilities.ListenersImplementation.class)
 public class AddProductToCartTest extends BaseClass {
-@Test(groups="Smoke")
+@Test(groups="smoke")
 /*Test method or Test Script*/
 
 public void AddProductToCart() throws IOException, InterruptedException{
